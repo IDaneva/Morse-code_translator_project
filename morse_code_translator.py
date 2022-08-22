@@ -10,11 +10,7 @@ morse_alphabet = {".-": "a", "-...": "b", "-.-.": "c", "-..": "d", ".": "e",
 
 class MyWindow:
     def __init__(self, win):
-        # self.lbl1 = Label(win, text='Text in morse')
-        # self.lbl2 = Label(win, text='Translation')
-        self.lbl1 = tkinter.Text(win)
-        self.lbl1.pack
-
+        self.lbl1 = Label(win, text='Text in morse')
         self.lbl2 = Label(win, text='Translation')
         self.t1 = Entry(bd=3)
         self.t2 = Entry()
