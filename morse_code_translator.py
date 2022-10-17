@@ -44,25 +44,8 @@ window.title('Morse translator')
 window.geometry("500x500+10+10")
 window.mainloop()
 
-# the following lines represent the logic I used that should be then implemented to the GUI
 
-# words_in_morse_to_translate = input().split(" | ")
-#
-# translated_message = []
-# morse_alphabet = {".-": "a", "-...": "b", "-.-.": "c", "-..": "d", ".": "e",
-#                   "..-.": "f", "--.": "g", "....": "h", "..": "i", ".---": "j",
-#                   "-.-": "k", ".-..": "l", "--": "m", "-.": "n", "---": "o",
-#                   ".--.": "p", "--.-": "q", ".-.": "r", "...": "s", "-": "t",
-#                   "..-": "u", "...-": "v", ".--": "w", "-..-": "x", "-.--": "y", "--..": "z"}
-# for word in words_in_morse_to_translate:
-#     current_word = ""
-#     for letter in word.split():
-#         if letter in morse_alphabet:
-#             current_word += morse_alphabet[letter]
-#     translated_message.append(current_word)
-#
-# print(' '.join(translated_message).upper())
-# input examples:
+# input examples which were taken from the problem description:
 # .. | -- .- -.. . |  -.-- --- ..- | .-- .-. .. - . | .- | .-.. --- -. --. | -.-. --- -.. .
 # this should result in the output I MADE YOU WRITE A LONG CODE
 # input
