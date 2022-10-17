@@ -8,7 +8,7 @@ When you run the program a new window pops up and requests a text to be entered
 
 Once we have the text in morse that we want to translate we can just type it and click on the "Translate!" button.
 
-For example if we take ".... . .-.. .-.. ---" the output will be then showed in the Translation field
+For example if we take ".... . .-.. .-.. ---" the output will be then showed in the "Translation" field
 
 ![image](https://user-images.githubusercontent.com/101068051/196107166-ee9ab921-d9f5-43c5-87e2-257b21763d1b.png)
 
